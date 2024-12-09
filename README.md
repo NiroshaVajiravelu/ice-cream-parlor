@@ -163,8 +163,17 @@ Total Price: $5.00
 
 Contributions are welcome to enhance the system further. Follow these steps to contribute:
 
-Fork this repository.   Create a new branch for your feature.  Commit your changes.
-      Push to the branch.   Open a pull request
+
+Fork this repository.
+
+Create a new branch for your feature.
+
+Commit your changes.
+
+Push to the branch.
+
+Open a pull request
+
 
 # **License**
 
