@@ -1,14 +1,13 @@
 
-## **Ice Cream Parlor Management System**
+# **Ice Cream Parlor Management System**
 
 The Ice Cream Parlor Management System is a Python application designed to help ice cream parlors streamline their operations. It offers tools for managing flavors, ingredients, allergens, and customer orders, all through an interactive command-line interface.
 
 # **Table of Contents**
 
-Overview
-
-Features
-
+Overview  
+  Features
+  
 File Structure
 
 Technologies Used
@@ -33,9 +32,9 @@ This project focuses on providing an intuitive and efficient system for ice crea
 
 **1. Flavor Management**
 
-Add new flavors with detailed descriptions, seasonal labels, and pricing.
-View all available flavors or filter by seasonal options.
-Search for specific flavors using keywords.
+Add new flavors with detailed descriptions, seasonal labels, and pricing.   
+   View all available flavors or filter by seasonal options.
+   Search for specific flavors using keywords.
 
 **2. Ingredient Management**
 
