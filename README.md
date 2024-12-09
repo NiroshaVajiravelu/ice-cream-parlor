@@ -71,20 +71,24 @@ Integrates flavor, ingredient, allergen, and cart management.
 # **Technologies Used**
 
 Language: Python (3.8 or later)
+
 Database: SQLite
+
 Modules: Python's built-in libraries, including dataclasses and sqlite3
 
 # **Installation**
 
 **Prerequisites**
+
 Python 3.8 or newer must be installed.
+
 SQLite is required (pre-installed with Python).
 
 **Steps**
 
 **1.Clone the Repository**
 
-bash code
+bash code             
 
     git clone https://github.com/NiroshaVajiravelu/ice-cream-parlor.git
     cd ice-cream-parlor
@@ -118,8 +122,11 @@ The main menu offers various options, such as managing flavors, ingredients, all
 bash code
 
 Enter flavor name: Strawberry
+
 Enter flavor description: Fresh strawberries blended to perfection.
+
 Is this a seasonal flavor? (y/n): y
+
 Enter price: 5.0
 
   **Viewing Cart**
@@ -127,7 +134,9 @@ Enter price: 5.0
 bash code
 
 --- Current Cart ---
+
 Name: Strawberry, Price: $5.00
+
 Total Price: $5.00
 
 # **Project Structure**
