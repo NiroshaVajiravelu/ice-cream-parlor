@@ -1,35 +1,51 @@
-# **Ice Cream Parlor Management System**
+### **Ice Cream Parlor Management System**
 
-The Ice Cream Parlor Management System is a comprehensive solution for managing an ice cream parlor's inventory, flavors, allergens, and customer orders. This system is built with Python and SQLite for backend operations, and it provides a command-line interface for efficient management.
+The Ice Cream Parlor Management System is a Python application designed to help ice cream parlors streamline their operations. It offers tools for managing flavors, ingredients, allergens, and customer orders, all through an interactive command-line interface.
+
+# **Table of Contents**
+
+Overview
+Features
+Technologies Used
+Installation
+How to Use
+Project Structure
+Future Enhancements
+Contributing
+License
+
+# **Overview**
+
+This project focuses on providing an intuitive and efficient system for ice cream parlor management. It allows staff to handle inventory, customer orders, and allergen information in a centralized and persistent manner, ensuring seamless service.
 
 # **Features**
 
-**Flavor Management**
+**1. Flavor Management**
 
-Add new flavors with descriptions, seasonal tags, and pricing.
-View all available flavors or filter by seasonal availability.
-Search for flavors using keywords.
+Add new flavors with detailed descriptions, seasonal labels, and pricing.
+View all available flavors or filter by seasonal options.
+Search for specific flavors using keywords.
 
-**Ingredient Management**
+**2. Ingredient Management**
 
-Maintain a database of ingredients with quantities and units.
-Add new ingredients to the inventory.
+Add and maintain ingredients with quantities and measurement units.
+Keep track of ingredient availability for inventory purposes.
 
-**Allergen Management**
+**3. Allergen Management**
 
-Maintain a list of allergens for customer safety.
-Add allergens to the system.
+Track and update allergen information for customer safety.
+Prevent duplication with unique allergen records.
 
-**Customer Cart Management**
+**4. Customer Cart Management**
 
-Add or remove flavors to/from the customer's cart.
-View cart contents and calculate the total price.
-Clear the cart when required.
+Add or remove flavors to/from a shopping cart.
+View cart contents with real-time price calculation.
+Clear the cart when starting a new transaction.
 
-**Persistent Database**
+**5. Database Integration**
 
-SQLite database to store all flavors, ingredients, and allergens.
-Data integrity ensured through constraints like unique flavor names.
+Uses SQLite for persistent data storage.
+Data is retained across sessions, ensuring reliability.
 
 # **File Structure**
 
@@ -51,72 +67,94 @@ Entry point for the application.
 Implements a user-friendly command-line interface.
 Integrates flavor, ingredient, allergen, and cart management.
 
-# **Prerequisites**
+# **Technologies Used**
 
-Python 3.8 or later
-SQLite (pre-installed with Python)
+Language: Python (3.8 or later)
+Database: SQLite
+Modules: Python's built-in libraries, including dataclasses and sqlite3
 
-# **Setup and Installation**
+**Installation**
+
+**Prerequisites**
+Python 3.8 or newer must be installed.
+SQLite is required (pre-installed with Python).
+
+**Steps**
 
 **1.Clone the Repository**
 
 bash code
-        git clone <repository_url>
-        cd ice-cream-parlor
 
+    git clone https://github.com/NiroshaVajiravelu/ice-cream-parlor.git
+    cd ice-cream-parlor
+    
 **2.Install Dependencies**
 
-(No additional Python packages required as it uses only the standard library.)
+(This project does not use external dependencies. Python's standard library suffices.)
 
-**3.Initialize the Database**
+**3.Run the Application**
 
-Run the application once to automatically create the SQLite database (ice_cream_parlor.db) and the required tables.
-
-# **Usage**
-
-**1.Start the Application**
+Execute the following command to start:
 
 bash code
-      python main.py
 
-**2.Follow the Menu Options**
-The main menu provides options for managing flavors, ingredients, allergens, and the cart.
+         python main.py
 
-**3.Database**
-The database file ice_cream_parlor.db will store all data persistently.
+         
+**How to Use**
 
-# **Example**
+**1.Launch the Application**
 
-**Adding a Flavor**
+Run python main.py to start the system.
 
-bashcode
+**2.Navigate the Menu**
 
---- Ice Cream Parlor Management ---
-1. Add Flavor
-...
-Enter flavor name: Chocolate
-Enter flavor description: Rich dark chocolate
-Is this a seasonal flavor? (y/n): n
-Enter price: 3.5
-Flavor Chocolate added successfully!
+The main menu offers various options, such as managing flavors, ingredients, allergens, and the cart. Enter the number corresponding to the desired action.
 
-**Viewing Flavors**
+**3.Examples of Operations**
+  **Adding a Flavor**
+
 bash code
----  Ice Cream Parlor Management ---
-3. View Flavors
-View seasonal flavors only? (y/n): n
-ID: 1, Name: Chocolate, Description: Rich dark chocolate, Seasonal: No, Price: $3.50
 
-# ****Project Highlights****
+Enter flavor name: Strawberry
+Enter flavor description: Fresh strawberries blended to perfection.
+Is this a seasonal flavor? (y/n): y
+Enter price: 5.0
 
-**Object-Oriented Design:** Efficiently organized code for scalability and maintainability.
-**Database Integration:** Uses SQLite for lightweight, persistent data management.
-**Command-Line Interface:** Simple and interactive, suitable for a proof-of-concept or small-scale application.
-**Extensibility:** Modular design allows easy addition of features like user accounts or reporting tools.
+  **Viewing Cart**
+  
+bash code
 
-**Contribution**
-Feel free to fork this repository and submit pull requests for any enhancements or bug fixes.
+--- Current Cart ---
+Name: Strawberry, Price: $5.00
+Total Price: $5.00
+
+**Project Structure**
+
+**models.py:** Contains class definitions for core entities like flavors, ingredients, allergens, and the shopping cart.
+
+**database.py:** Handles interactions with the SQLite database, including table creation and CRUD operations.
+
+**main.py:** Provides the user interface through a menu-driven command-line system, linking user input to database and business logic.
+
+**Future Enhancements**
+
+**Web Interface:** Add a web-based front end for easier accessibility and a modern user experience.
+
+**User Accounts:** Implement multi-user functionality with authentication for staff and administrators.
+
+**Reporting Tools:** Generate sales, inventory, and allergen reports to aid business analysis.
+
+**Contributing**
+
+Contributions are welcome to enhance the system further. Follow these steps to contribute:
+
+Fork this repository.
+Create a new branch for your feature
+Commit your changes 
+Push to the branch
+Open a pull request.
 
 **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
 
+This project is licensed under the MIT License. See the LICENSE file for details.
