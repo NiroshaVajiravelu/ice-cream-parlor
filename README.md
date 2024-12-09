@@ -1,6 +1,7 @@
 # ice-cream-parlor
 
 **Ice Cream Parlor Management System**
+
 The Ice Cream Parlor Management System is a comprehensive solution for managing an ice cream parlor's inventory, flavors, allergens, and customer orders. This system is built with Python and SQLite for backend operations, and it provides a command-line interface for efficient management.
 
 **Features**
@@ -29,17 +30,20 @@ Data integrity ensured through constraints like unique flavor names.
 
 **File Structure**
 
-**1. models.py
-Defines data models for the system:**
-Flavor, Ingredient, Allergen, and Cart.
+**1. models.py**
+   
+Defines data models for the system:
+  Flavor, Ingredient, Allergen, and Cart.
 Provides methods for cart operations like adding and removing items.
 
 **2. database.py**
+
 Implements database interactions using SQLite.
 Handles CRUD operations for flavors, ingredients, and allergens.
 Provides search capabilities for flavors.
 
 **3. main.py**
+
 Entry point for the application.
 Implements a user-friendly command-line interface.
 Integrates flavor, ingredient, allergen, and cart management.
@@ -52,8 +56,9 @@ SQLite (pre-installed with Python)
 
 **1.Clone the Repository**
 
-git clone <repository_url>
-cd ice-cream-parlor
+bash code
+        git clone <repository_url>
+        cd ice-cream-parlor
 
 **2.Install Dependencies**
 (No additional Python packages required as it uses only the standard library.)
@@ -65,7 +70,7 @@ Run the application once to automatically create the SQLite database (ice_cream_
 **1.Start the Application**
 
 bash code
-python main.py
+      python main.py
 
 **2.Follow the Menu Options**
 The main menu provides options for managing flavors, ingredients, allergens, and the cart.
@@ -73,10 +78,12 @@ The main menu provides options for managing flavors, ingredients, allergens, and
 **3.Database**
 The database file ice_cream_parlor.db will store all data persistently.
 
-**Example
-Adding a Flavor**
+**Example**
+
+**Adding a Flavor**
 
 bashcode
+
 --- Ice Cream Parlor Management ---
 1. Add Flavor
 ...
@@ -87,14 +94,14 @@ Enter price: 3.5
 Flavor Chocolate added successfully!
 
 **Viewing Flavors**
-bash
-Copy code
---- Ice Cream Parlor Management ---
+bash code
+---  Ice Cream Parlor Management ---
 3. View Flavors
 View seasonal flavors only? (y/n): n
 ID: 1, Name: Chocolate, Description: Rich dark chocolate, Seasonal: No, Price: $3.50
 
-**Project Highlights**
+****Project Highlights****
+
 **Object-Oriented Design:** Efficiently organized code for scalability and maintainability.
 **Database Integration:** Uses SQLite for lightweight, persistent data management.
 **Command-Line Interface:** Simple and interactive, suitable for a proof-of-concept or small-scale application.
@@ -106,4 +113,3 @@ Feel free to fork this repository and submit pull requests for any enhancements 
 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Let me know if you need further refinements!
