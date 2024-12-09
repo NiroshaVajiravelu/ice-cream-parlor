@@ -1,30 +1,35 @@
 # ice-cream-parlor
-
-**Ice Cream Parlor Management System**
+**
+**Ice Cream Parlor Management System****
 
 The Ice Cream Parlor Management System is a comprehensive solution for managing an ice cream parlor's inventory, flavors, allergens, and customer orders. This system is built with Python and SQLite for backend operations, and it provides a command-line interface for efficient management.
 
 **Features**
 
 **Flavor Management**
+
 Add new flavors with descriptions, seasonal tags, and pricing.
 View all available flavors or filter by seasonal availability.
 Search for flavors using keywords.
 
 **Ingredient Management**
+
 Maintain a database of ingredients with quantities and units.
 Add new ingredients to the inventory.
 
 **Allergen Management**
+
 Maintain a list of allergens for customer safety.
 Add allergens to the system.
 
 **Customer Cart Management**
+
 Add or remove flavors to/from the customer's cart.
 View cart contents and calculate the total price.
 Clear the cart when required.
 
 **Persistent Database**
+
 SQLite database to store all flavors, ingredients, and allergens.
 Data integrity ensured through constraints like unique flavor names.
 
@@ -49,6 +54,7 @@ Implements a user-friendly command-line interface.
 Integrates flavor, ingredient, allergen, and cart management.
 
 **Prerequisites**
+
 Python 3.8 or later
 SQLite (pre-installed with Python)
 
@@ -61,12 +67,15 @@ bash code
         cd ice-cream-parlor
 
 **2.Install Dependencies**
+
 (No additional Python packages required as it uses only the standard library.)
 
 **3.Initialize the Database**
+
 Run the application once to automatically create the SQLite database (ice_cream_parlor.db) and the required tables.
 
 **Usage**
+
 **1.Start the Application**
 
 bash code
