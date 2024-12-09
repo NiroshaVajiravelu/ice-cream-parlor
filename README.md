@@ -6,15 +6,15 @@ The Ice Cream Parlor Management System is a Python application designed to help 
 # **Table of Contents**
 
 Overview  
-  Features
-              File Structure
-                               Technologies Used
-                                                        Installation
-                                                                     How to Use
+Features
+File Structure
+Technologies Used
+Installation
+How to Use
 Project Structure
-  Future Enhancements
+Future Enhancements
 Contributing
-  License
+License
 
 # **Overview**
 
