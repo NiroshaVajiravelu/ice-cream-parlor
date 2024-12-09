@@ -5,20 +5,26 @@ The Ice Cream Parlor Management System is a Python application designed to help 
 
 # **Table of Contents**
 
+Overview 
 
-Here’s how the updated Table of Contents section should look in your README.md for a clear, line-by-line structure as you requested:
-
-Table of Contents
-Overview
 Features
+
 Technologies Used
+
 Installation
+
 Usage
+
 Test Steps
+
 Docker Integration
+
 File Structure
+
 Code Documentation
+
 Contributing
+
 License
 
 # **Overview**
@@ -30,8 +36,8 @@ This project focuses on providing an intuitive and efficient system for ice crea
 **1. Flavor Management**
 
 Add new flavors with detailed descriptions, seasonal labels, and pricing.   
-   View all available flavors or filter by seasonal options.
-   Search for specific flavors using keywords.
+View all available flavors or filter by seasonal options.
+Search for specific flavors using keywords.
 
 **2. Ingredient Management**
 
