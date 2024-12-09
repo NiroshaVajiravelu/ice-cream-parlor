@@ -1,10 +1,10 @@
 # ice-cream-parlor
-**
-**Ice Cream Parlor Management System****
+
+# **Ice Cream Parlor Management System**
 
 The Ice Cream Parlor Management System is a comprehensive solution for managing an ice cream parlor's inventory, flavors, allergens, and customer orders. This system is built with Python and SQLite for backend operations, and it provides a command-line interface for efficient management.
 
-**Features**
+# **Features**
 
 **Flavor Management**
 
