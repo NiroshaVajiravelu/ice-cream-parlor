@@ -153,6 +153,7 @@ bash code
 
 **main.py:** Provides the user interface through a menu-driven command-line system, linking user input to database and business logic.
 
+
 # **Future Enhancements**
 
 **Web Interface:** Add a web-based front end for easier accessibility and a modern user experience.
@@ -160,6 +161,7 @@ bash code
 **User Accounts:** Implement multi-user functionality with authentication for staff and administrators.
 
 **Reporting Tools:** Generate sales, inventory, and allergen reports to aid business analysis.
+
 
 # **Contributing**
 
