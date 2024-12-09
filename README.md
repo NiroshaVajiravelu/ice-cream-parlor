@@ -1,4 +1,4 @@
-### **Ice Cream Parlor Management System**
+## **Ice Cream Parlor Management System**
 
 The Ice Cream Parlor Management System is a Python application designed to help ice cream parlors streamline their operations. It offers tools for managing flavors, ingredients, allergens, and customer orders, all through an interactive command-line interface.
 
@@ -6,6 +6,7 @@ The Ice Cream Parlor Management System is a Python application designed to help 
 
 Overview
 Features
+File Structure
 Technologies Used
 Installation
 How to Use
@@ -73,7 +74,7 @@ Language: Python (3.8 or later)
 Database: SQLite
 Modules: Python's built-in libraries, including dataclasses and sqlite3
 
-**Installation**
+# **Installation**
 
 **Prerequisites**
 Python 3.8 or newer must be installed.
@@ -101,7 +102,7 @@ bash code
          python main.py
 
          
-**How to Use**
+# **How to Use**
 
 **1.Launch the Application**
 
@@ -129,7 +130,7 @@ bash code
 Name: Strawberry, Price: $5.00
 Total Price: $5.00
 
-**Project Structure**
+# **Project Structure**
 
 **models.py:** Contains class definitions for core entities like flavors, ingredients, allergens, and the shopping cart.
 
@@ -137,7 +138,7 @@ Total Price: $5.00
 
 **main.py:** Provides the user interface through a menu-driven command-line system, linking user input to database and business logic.
 
-**Future Enhancements**
+# **Future Enhancements**
 
 **Web Interface:** Add a web-based front end for easier accessibility and a modern user experience.
 
@@ -145,7 +146,7 @@ Total Price: $5.00
 
 **Reporting Tools:** Generate sales, inventory, and allergen reports to aid business analysis.
 
-**Contributing**
+# **Contributing**
 
 Contributions are welcome to enhance the system further. Follow these steps to contribute:
 
@@ -155,6 +156,6 @@ Commit your changes
 Push to the branch
 Open a pull request.
 
-**License**
+# **License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
