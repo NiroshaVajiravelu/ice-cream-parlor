@@ -123,7 +123,8 @@ Run python main.py to start the system.
 
 **2.Navigate the Menu**
 
-The main menu offers various options, such as managing flavors, ingredients, allergens, and the cart. Enter the number corresponding to the desired action.
+The main menu offers various options, such as managing flavors, ingredients, allergens, and the cart. 
+Enter the number corresponding to the desired action.
 
 **3.Examples of Operations**
 
