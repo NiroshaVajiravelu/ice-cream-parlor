@@ -126,22 +126,23 @@ Run python main.py to start the system.
 The main menu offers various options, such as managing flavors, ingredients, allergens, and the cart. Enter the number corresponding to the desired action.
 
 **3.Examples of Operations**
+
   **Adding a Flavor**
 
 bash code
 
-Enter flavor name: Strawberry
-Enter flavor description: Fresh strawberries blended to perfection.
-Is this a seasonal flavor? (y/n): y
-Enter price: 5.0
+       Enter flavor name: Strawberry 
+       Enter flavor description: Fresh strawberries blended to perfection.
+       Is this a seasonal flavor? (y/n): y
+       Enter price: 5.0
 
   **Viewing Cart**
   
 bash code
 
---- Current Cart ---
-Name: Strawberry, Price: $5.00
-Total Price: $5.00
+      --- Current Cart ---
+      Name: Strawberry, Price: $5.00
+      Total Price: $5.00
 
 # **Project Structure**
 
