@@ -37,26 +37,22 @@ This project focuses on providing an intuitive and efficient system for ice crea
 
 Add new flavors with detailed descriptions, seasonal labels, and pricing.   
 View all available flavors or filter by seasonal options.
-
 Search for specific flavors using keywords.
 
 **2. Ingredient Management**
 
 Add and maintain ingredients with quantities and measurement units.
-
 Keep track of ingredient availability for inventory purposes.
 
 **3. Allergen Management**
 
 Track and update allergen information for customer safety.
-
 Prevent duplication with unique allergen records.
 
 **4. Customer Cart Management**
 
 Add or remove flavors to/from a shopping cart.
 View cart contents with real-time price calculation.
-
 Clear the cart when starting a new transaction.
 
 **5. Database Integration**
@@ -76,14 +72,12 @@ Provides methods for cart operations like adding and removing items.
 
 Implements database interactions using SQLite.
 Handles CRUD operations for flavors, ingredients, and allergens.
-
 Provides search capabilities for flavors.
 
 **3. main.py**
 
 Entry point for the application.
 Implements a user-friendly command-line interface.
-
 Integrates flavor, ingredient, allergen, and cart management.
 
 # **Technologies Used**
@@ -170,13 +164,9 @@ Total Price: $5.00
 Contributions are welcome to enhance the system further. Follow these steps to contribute:
 
 Fork this repository.
-
 Create a new branch for your feature
-
 Commit your changes 
-
 Push to the branch
-
 Open a pull request.
 
 # **License**
