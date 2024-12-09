@@ -5,14 +5,19 @@ The Ice Cream Parlor Management System is a Python application designed to help 
 
 # **Table of Contents**
 
-Overview  
+
+Here’s how the updated Table of Contents section should look in your README.md for a clear, line-by-line structure as you requested:
+
+Table of Contents
+Overview
 Features
-File Structure
 Technologies Used
 Installation
-How to Use
-Project Structure
-Future Enhancements
+Usage
+Test Steps
+Docker Integration
+File Structure
+Code Documentation
 Contributing
 License
 
