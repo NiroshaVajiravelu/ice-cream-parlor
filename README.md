@@ -35,30 +35,30 @@ This project focuses on providing an intuitive and efficient system for ice crea
 
 **1. Flavor Management**
 
-Add new flavors with detailed descriptions, seasonal labels, and pricing.   
-View all available flavors or filter by seasonal options.
-Search for specific flavors using keywords.
+   Add new flavors with detailed descriptions, seasonal labels, and pricing.   
+   View all available flavors or filter by seasonal options.
+   Search for specific flavors using keywords.
 
 **2. Ingredient Management**
 
-Add and maintain ingredients with quantities and measurement units.
-Keep track of ingredient availability for inventory purposes.
+   Add and maintain ingredients with quantities and measurement units.
+   Keep track of ingredient availability for inventory purposes.
 
 **3. Allergen Management**
 
-Track and update allergen information for customer safety.
-Prevent duplication with unique allergen records.
+   Track and update allergen information for customer safety.
+   Prevent duplication with unique allergen records.
 
 **4. Customer Cart Management**
 
-Add or remove flavors to/from a shopping cart.
-View cart contents with real-time price calculation.
-Clear the cart when starting a new transaction.
+   Add or remove flavors to/from a shopping cart.
+   View cart contents with real-time price calculation.
+   Clear the cart when starting a new transaction.
 
 **5. Database Integration**
 
-Uses SQLite for persistent data storage.
-Data is retained across sessions, ensuring reliability.
+   Uses SQLite for persistent data storage.
+   Data is retained across sessions, ensuring reliability.
 
 # **File Structure**
 
